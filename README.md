@@ -16,11 +16,13 @@ Toggles the NoNewPlayers restrictions.
 
 ### **/NNPResetBanFrom**
 
-This plugin works by using Moderation2's player info database, using the first seen field to detect 'new' players. This plugin blocks players whose 'first-seen' is before a certain date. This date defaults to the date you installed the plugin.
+This plugin works by using Moderation2's player info database, using the first seen field to detect 'new' players. This plugin blocks players whose 'first-seen' is after a certain date. This date defaults to the date you installed the plugin.
 
 Even if a player is blocked from joining the server by this plugin, their player info is still recorded by Moderation2. You can change the 'allow before' date with this command.
 
-This will effectively 'whitelist' any players who tried to join your server after you installed the this plugin.
+This will effectively 'whitelist' any players who tried to join your server before the set time.
+
+This can be a useful tool to curb mass usage of alt accounts/server raids, as a form of 'locking down' the server.
 
 ## Config:
 
